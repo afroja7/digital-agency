@@ -1,5 +1,5 @@
-body{
-zoom: 100%;
+body {
+    zoom: 100%;
 }
 
 .banner-container {
@@ -127,7 +127,7 @@ zoom: 100%;
 }
 
 
-.mains{
+.mains {
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -135,50 +135,51 @@ zoom: 100%;
     background: rgba(229, 84, 115, 0.05);
     margin-bottom: 100px;
     margin-top: 100px;
-    padding: 100px;
+    padding: 200px;
 }
 
-.mains-tittle{
+.mains-tittle {
     color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-span{
+span {
     color: #E55473;
 }
-.mains-contant{
+
+.mains-contant {
     display: flex;
     width: 594px;
     flex-direction: column;
     flex-shrink: 0;
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.mains-btn{
+.mains-btn {
     display: inline-flex;
     padding: 20px 43px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
-background: #E55473;
-color: #FFF;
+    background: #E55473;
+    color: #FFF;
 }
 
 
 .instragram {
     text-align: center;
     font-family: Lato;
-margin-top: 100px;
+    margin-top: 100px;
 }
 
 .ig-tittle {
@@ -209,11 +210,11 @@ margin-top: 100px;
 .footer {
     background: #111010;
     font-family: Lato;
-width: 1450px;
-height: 200px;
-align-items: center;
-justify-content: center;
-text-align: center;
+    width: 1450px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .flower-shop {
@@ -232,7 +233,7 @@ text-align: center;
 
 .footer-contant {
     color: #FFFFFFE5;
-  
+
 }
 
 small {
@@ -245,26 +246,54 @@ small {
 }
 
 
-.email{
-border-radius: 8px;
-background: #FFF;
+.email {
+    border-radius: 8px;
+    background: #FFF;
 }
 
-.btn-last{
+.btn-last {
     padding: 4px 8px;
     gap: 5px;
     border-radius: 8px;
     background: #E55473;
     color: white;
 }
-.deal-section{
+
+.deal-section {
     display: flex;
     justify-content: space-around;
     text-align: center;
     background-image: url(../images/Rectangle\ 9.png);
-    width:76%;
-    margin:auto;
+    width: 76%;
+    margin: auto;
     margin-bottom: 100px;
     margin-top: 100px;
 
+}
+
+
+.review-section {
+    display: inline-flex;
+    border-radius: 8px;
+    align-items: center;
+    font-family: Lato;
+    justify-content: center;
+    margin-left: 300px;
+    gap: 20px;
+
+}
+
+.review-tittle {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
 }
