@@ -120,3 +120,21 @@ line-height: 30px;
     text-align: center;
     justify-content: space-around;
 }
+
+.fouth-part{
+  background: rgba(229, 84, 115, 0.05);
+  width: 1150px;
+    height: 200px;
+margin-top: 100px;
+padding: 150px;
+margin-bottom: 50px;
+text-align: center;
+
+}
+
+.sign-up{
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+}
