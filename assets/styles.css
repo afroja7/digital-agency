@@ -6,7 +6,6 @@
 }
 
 .banner-info {
-    /* padding-left: 20px; */
     padding: 70px;
     padding: 70px;
     align-items: center;
@@ -62,12 +61,13 @@
     line-height: normal;
 
 }
-.contact{
-    color: rgba(39, 39, 39, 0.60);
-font-size: 15px;
-font-style: normal;
-font-weight: 200;
-line-height: 30px;
+
+.contact {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 30px;
+    color: #27272799;
 }
 
 .all-image {
@@ -121,20 +121,143 @@ line-height: 30px;
     justify-content: space-around;
 }
 
-.fouth-part{
-  background: rgba(229, 84, 115, 0.05);
-  width: 1150px;
+.fouth-part {
+    background: rgba(229, 84, 115, 0.05);
+    width: 1150px;
     height: 200px;
-margin-top: 100px;
-padding: 150px;
-margin-bottom: 50px;
-text-align: center;
-
+    margin-top: 100px;
+    padding: 150px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-.sign-up{
+.sign-up {
     padding: 20px 43px;
     gap: 10px;
     border-radius: 8px;
     background: #E55473;
+}
+
+
+
+.instragram {
+    text-align: center;
+    font-family: Lato;
+}
+
+.ig-tittle {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.ig-contant {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.ig-image {
+    width: 242px;
+    height: 296px;
+    display: flex;
+    gap: 15px;
+    margin-left: 170px;
+}
+
+
+
+
+.flower {
+    display: inline-flex;
+    display: contents;
+    /* display: block; */
+    width: 242px;
+    height: 333px;
+    /* display: flex; */
+    gap: 15px;
+    margin-left: 170px;
+    margin-top: 100px;
+
+}
+
+.deals {}
+
+.get {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text {
+    color: #27272799;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-email {
+    border-radius: 8px;
+    background: #FFF;
+    width: 500px;
+    height: 40px;
+    justify-content: left;
+
+}
+
+
+.btn-sub {
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+.footer {
+    background: #111010;
+    font-family: Lato;
+width: 1450px;
+height: 200px;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.flower-shop {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.flower-shop span {
+    color: white;
+}
+
+.footer-contant {
+    color: #FFFFFFE5;
+  
+}
+
+small {
+    color: #FFFFFF66;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
 }
