@@ -261,7 +261,7 @@ background: #FFF;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background-image: url(/images/Rectangle\ 9.png);
+    background-image:url(/images/Rectangle\ 9.png) ;
     width:76%;
     margin:auto;
     margin-bottom: 100px;
